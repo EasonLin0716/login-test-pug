@@ -1,5 +1,5 @@
 # login-test-pug
-Same as login-test but built with pug as template engine instead of handlebars, which was copied from [https://github.com/EasonLin0716/login-test]https://github.com/EasonLin0716/login-test
+Same as login-test but built with pug as template engine instead of handlebars, which was copied from https://github.com/EasonLin0716/login-test
 
 ## features
 1. find user data at users.json
