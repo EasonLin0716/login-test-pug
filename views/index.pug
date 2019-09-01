@@ -6,12 +6,12 @@ include ./layouts/main.pug
     .form-group
       label(for='InputEmail') Email address
       input.form-control(type='email', placeholder='Please enter your email', name='email')
-      small.form-text.text-muted Notice- We will never require your password.
+      small.form-text.text-muted Notice- Customer support team will never require your password.
     .form-group
       label(for='InputPassword') Password
       input.form-control(type='password', placeholder='Please enter your password', name='password')
       // if result.loginSuccess from app.js were false, warning text would be showed
-      if (warningText)
+      if (result === null)
         small.form-text.text-warning Invalid email or password!
     .d-flex.justify-content-center
       button.btn.btn-primary.btn-lg(type='submit') &#x767B;&#x5165;
